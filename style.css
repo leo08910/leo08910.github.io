@@ -34,15 +34,21 @@ a {
 }
 
 .div1 {
-    background-color: blue;
+    background-color: rgb(255, 51, 0);
     width: 200vh;
     height: 100vh;
+    border-left: 5px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .div2 {
-    background-color: brown;
+    background-color: rgb(255, 51, 0);
     width: 200vh;
     height: 100vh;
+    border-right: 5px black solid;
     
 }
 
@@ -50,4 +56,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.presentacion {
+    position: relative;
+    bottom: 200px;
+}
+
+.csharp {
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
 }
