@@ -33,14 +33,21 @@ a {
     color: black;
 }
 
-#div1 {
-    background-color: red;
-    width: 50%;
-    height: 100%;
+.div1 {
+    background-color: blue;
+    width: 200vh;
+    height: 100vh;
 }
 
-#div2 {
-    background-color: rgb(55, 0, 255);
-    width: 50%;
-    height: 100%;
+.div2 {
+    background-color: brown;
+    width: 200vh;
+    height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
