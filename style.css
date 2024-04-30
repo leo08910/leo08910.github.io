@@ -83,3 +83,15 @@ main {
     position: relative;
     bottom: 10px;
 }
+
+.imagenprogramacion {
+    width: 85%;
+    height: 85%;
+}
+
+footer {
+    width: 100%px;
+    height: 50px;
+    border: 5px black solid;
+    background-color: rgb(255, 51, 0);
+}
