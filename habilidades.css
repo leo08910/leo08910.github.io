@@ -3,10 +3,6 @@
     margin: 0px;
 }
 
-body {
-    background-color: rgb(255, 51, 0);
-
-}
 
 header {
     display: flex;
@@ -14,12 +10,22 @@ header {
     align-items: center;
     border: 5px black solid;
     height: 50px;
+    background-color:rgb(255, 51, 0); ;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 51, 0);
+    height: 100vh;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
 }
 
-
+footer {
+    width: 100%px;
+    height: 50px;
+    border: 5px black solid;
+    background-color: rgb(255, 51, 0);
+}
