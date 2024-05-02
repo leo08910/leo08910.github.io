@@ -29,3 +29,33 @@ footer {
     border: 5px black solid;
     background-color: rgb(255, 51, 0);
 }
+
+.contenedor {
+    background-color: rgb(255, 51, 0);
+    display: flex;
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+video {
+    width: 60%;
+    position: relative;
+    bottom: 60px;
+
+}
+
+p {
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.contenedor_video {
+    display: flex;
+    justify-content: center;
+}
