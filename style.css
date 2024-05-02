@@ -91,6 +91,9 @@ footer {
     height: 50px;
     border: 5px black solid;
     background-color: rgb(255, 51, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pythonlogo {
@@ -105,4 +108,9 @@ footer {
     margin-right: 5px;
     position: relative;
     top: 3px;
+}
+
+.githubicon {
+    width: 30px;
+    height: 30px;
 }
