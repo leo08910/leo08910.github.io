@@ -30,6 +30,13 @@ footer {
     background-color: rgb(255, 51, 0);
 }
 
-p {
-    font-size: 30px;
+
+div {
+    background-color: rgb(255, 51, 0);
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
