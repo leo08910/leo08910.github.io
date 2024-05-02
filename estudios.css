@@ -45,3 +45,11 @@ div {
     padding-left: 50px;
 
 }
+
+img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
