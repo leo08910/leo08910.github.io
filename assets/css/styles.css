@@ -180,9 +180,10 @@ img {
 
 /*===== HOME =====*/
 .home {
-  position: relative;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: space-between; /* Separa el texto y la imagen */
+  flex-wrap: wrap; /* Permite que los elementos se acomoden en pantallas pequeñas */
 }
 .home__data {
   align-self: center;
@@ -208,17 +209,27 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 100%;
+  max-width: 250px; /* Ajusta según tu imagen */
+  margin: 0 auto; /* Centra en el eje horizontal */
 }
 .home__blob {
   fill: var(--first-color);
 }
 .home__blob-img {
   width: 360px;
+  border-radius: 50%;
 }
+.home__photo {
+  width: 250px; /* Ajustá el tamaño a tu gusto */
+  height: 250px; /* Ajustá el tamaño a tu gusto */
+  border-radius: 50%;
+  object-fit: cover; /* Para que no se deforme */
+}
+
 
 /*BUTTONS*/
 .button {
@@ -294,7 +305,7 @@ img {
   width: 95%;
 }
 .skills__css {
-  width: 85%;
+  width: 40%;
 }
 .skills__js {
   width: 65%;
