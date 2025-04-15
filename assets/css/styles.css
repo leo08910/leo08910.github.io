@@ -41,6 +41,8 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -48,6 +50,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, p {
@@ -302,6 +306,8 @@ img {
   padding: 0;
   margin: 0;
   gap: 15px; /* Espaciado entre los elementos de la lista */
+  justify-content: center;
+  align-items: center;
 }
 
 .skills__list li {
@@ -311,6 +317,8 @@ img {
   font-size: 14px;
   text-align: center;
   color: var(--first-color);
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -571,7 +579,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
-    text-align: initial;
+    justify-content: center;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
